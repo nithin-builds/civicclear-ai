@@ -1,0 +1,23 @@
+{
+  "model": "XHToken/Spark-X2.6-4B",
+  "model_commit": "66e3ae7bee54e0a523d692cb8ef841f35409807b",
+  "transformers": "4.57.1",
+  "torch": "2.11.0+cu130",
+  "gpu": "Tesla T4",
+  "dtype": "torch.bfloat16",
+  "thinking_enabled": false,
+  "max_new_tokens": 600,
+  "do_sample": false,
+  "latency_seconds": 7.26,
+  "sanitized_input": "社区诊所通知：孕妇若出现严重头痛、视力模糊、上腹疼痛或面部突然肿胀，应立即联系急诊服务。预约咨询电话 [PHONE-REDACTED]，患者身份证 [ID-REDACTED]。",
+  "actual_output": {
+    "summary": "社区诊所通知指出，孕妇若出现严重头痛、视力模糊、上腹疼痛或面部突然肿胀，应立即联系急诊服务。通知中提供预约咨询电话为[PHONE-REDACTED]，患者身份证为[ID-REDACTED]。",
+    "urgent_actions": ["若孕妇出现严重头痛、视力模糊、上腹疼痛或面部突然肿胀，立即联系急诊服务"],
+    "next_steps": [],
+    "documents": [],
+    "deadlines": [],
+    "uncertainties": [],
+    "human_review": ""
+  },
+  "raw_unedited_output": "{\"summary\": \"社区诊所通知指出，孕妇若出现严重头痛、视力模糊、上腹疼痛或面部突然肿胀，应立即联系急诊服务。通知中提供预约咨询电话为[PHONE-REDACTED]，患者身份证为[ID-REDACTED]。\", \"urgent_actions\": [\"若孕妇出现严重头痛、视力模糊、上腹疼痛或面部突然肿胀，立即联系急诊服务\"], \"next_steps\": [], \"documents\": [], \"deadlines\": [], \"uncertainties\": [], \"human_review\": \"\"}"
+}
